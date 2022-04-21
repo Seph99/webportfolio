@@ -1,0 +1,514 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Orbitron', sans-serif;
+}
+
+/*Start of Nav styles*/
+.navbar {
+	background: linear-gradient(90deg, rgba(31,31,31,1) 0%, rgba(73,73,74,1) 73%, rgba(124,124,124,1) 100%);
+	border: 1px solid black;
+}
+
+.navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,193,7, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}	
+
+.nav-link {
+	position: relative;
+	width: 75px;
+	text-align: left;
+  color: #ffc107;
+}
+
+.nav-link:hover {
+  background-color: #ffc107;
+  color: black;
+}
+
+.nav-link:before {
+  content: "";
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  width: 12px;
+  height: 12px;
+  border: 3px solid #ffc107;
+  border-width: 0 0 3px 3px;
+  opacity: 0;
+  transition: all 0.3s
+}
+
+.nav-link:hover:before {
+  opacity: 1;
+  bottom: -8px;
+  left: -8px;
+}
+
+.nav-link:after {
+  content: "";
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 12px;
+  height: 12px;
+  border: 3px solid #ffc107;
+  border-width: 3px 3px 0px 0px;
+  opacity: 0;
+  transition: all 0.3s
+}
+
+.nav-link:hover:after {
+  opacity: 1;
+  top: -8px;
+  right: -8px;
+}
+/*End of Nav styles*/
+
+/*Start of Landing Page styles*/
+.jumbotron {
+  background-color: black;
+  border-radius: 0%;
+  height: 100vh;
+  color: white;
+}
+
+.lead {
+  color: white;
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+
+.landing-joseph-j, 
+.landing-joseph-o, 
+.landing-joseph-s, 
+.landing-joseph-e, 
+.landing-joseph-p, 
+.landing-joseph-h {
+  animation: light 1s linear infinite;
+}
+
+@keyframes light {
+  0% {
+    color: white;
+    text-shadow: none;
+  }
+
+  70% {
+    color: white;
+    text-shadow: none;
+  }
+
+  100% {
+    color: #ffc107;
+    text-shadow: 0px 0px 7px #ffc107, 0 0 50px #ffc107;
+  }
+}
+
+.landing-joseph-j {
+  animation-delay: 0
+}
+
+.landing-joseph-o {
+  animation-delay: 0.1s;
+}
+
+.landing-joseph-s {
+  animation-delay: 0.2s;
+}
+
+.landing-joseph-e {
+  animation-delay: 0.3s;
+}
+
+.landing-joseph-p {
+  animation-delay: 0.4s;
+}
+
+.landing-joseph-h {
+  animation-delay: 0.5s;
+}
+
+.bg-icon1 {
+  position: absolute;
+  bottom: 0;
+  animation: icons 15s infinite linear;
+  left: 10%;
+  opacity: 0;
+  width: 70px;
+  height: 70px;
+}
+
+.bg-icon2 {
+  position: absolute;
+  bottom: 0;
+  animation: icons 15s infinite linear;
+  left: 15%;
+  opacity: 0;
+  width: 60px;
+  height: 60px;
+  animation-delay: 5s;
+}
+
+.bg-icon3 {
+  position: absolute;
+  bottom: 0;
+  animation: icons 15s infinite linear;
+  left: 20%;
+  opacity: 0;
+  width: 65px;
+  height: 65px;
+  animation-delay: 7s;
+}
+
+.bg-icon4 {
+  position: absolute;
+  bottom: 0;
+  animation: icons 15s infinite linear;
+  left: 30%;
+  opacity: 0;
+  width: 60px;
+  height: 60px;
+  animation-delay: 10s;
+}
+
+.bg-icon5 {
+  position: absolute;
+  bottom: 0;
+  animation: icons 15s infinite linear;
+  left: 35%;
+  opacity: 0;
+  width: 60px;
+  height: 60px;
+  animation-delay: 2s;
+}
+
+.bg-icon6 {
+  position: absolute;
+  bottom: 0;
+  animation: icons 15s infinite linear;
+  left: 50%;
+  opacity: 0;
+  width: 60px;
+  height: 60px;
+  animation-delay: 5s;
+}
+
+.bg-icon7 {
+  position: absolute;
+  bottom: 0;
+  animation: icons 15s infinite linear;
+  left: 60%;
+  opacity: 0;
+  width: 65px;
+  height: 65px;
+  animation-delay: 11s;
+}
+
+.bg-icon8 {
+  position: absolute;
+  bottom: 0;
+  animation: icons 15s infinite linear;
+  left: 70%;
+  opacity: 0;
+  width: 75px;
+  height: 75px;
+  animation-delay: 3s;
+}
+
+.bg-icon9 {
+  position: absolute;
+  bottom: 0;
+  animation: icons 15s infinite linear;
+  left: 80%;
+  opacity: 0;
+  width: 50px;
+  height: 50px;
+  animation-delay: 1s;
+}
+
+.bg-icon10 {
+  position: absolute;
+  bottom: 0;
+  animation: icons 15s infinite linear;
+  left: 77%;
+  opacity: 0;
+  width: 55px;
+  height: 55px;
+  animation-delay: 4s;
+}
+
+.bg-icon11 {
+  position: absolute;
+  bottom: 0;
+  animation: icons 15s infinite linear;
+  left: 15%;
+  opacity: 0;
+  width: 55px;
+  height: 55px;
+  animation-delay: 9s;
+}
+
+.bg-icon12 {
+  position: absolute;
+  bottom: 0;
+  animation: icons 15s infinite linear;
+  left: 40%;
+  opacity: 0;
+  width: 65px;
+  height: 65px;
+  animation-delay: 8s;
+}
+
+.bg-icon13 {
+  position: absolute;
+  bottom: 0;
+  animation: icons 15s infinite linear;
+  left: 65%;
+  opacity: 0;
+  width: 70px;
+  height: 70px;
+  animation-delay: 6s;
+}
+
+.bg-icon14 {
+  position: absolute;
+  bottom: 0;
+  animation: icons 15s infinite linear;
+  left: 75%;
+  opacity: 0;
+  width: 50px;
+  height: 50px;
+  animation-delay: 9s;
+}
+
+@keyframes icons {
+  0% { bottom: 0%;
+  opacity: 0; }
+
+  50% { bottom: 50%;
+  opacity: 0.5; }
+
+  100% { bottom: 100%;
+  transform: rotate(180deg);
+  opacity: 0; }
+}
+
+.landing-tagline {
+  color: white;
+  letter-spacing: 5px;
+}
+/*End of Landing Page style*/
+
+/*Start of About Section styles*/
+.about {
+  background-color: white;
+}
+
+.about-description {
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  color: black;
+}
+
+.about-title {
+  position: relative;
+  -webkit-text-stroke: 2px black;
+  letter-spacing: 3px;
+  font-size: 45px;
+  color: transparent;
+}
+
+.about-title:before, .about-title:after {
+  content: "About...";
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.5s;
+} 
+
+.about:hover .about-title:before {
+  color: red;
+  -webkit-text-stroke: 1px black;
+  transform: translate(4px, -4px);
+}   
+
+.about:hover .about-title:after {
+  color: #ffc107;
+  -webkit-text-stroke: 1px black;
+  transform: translate(8px, -8px);
+}  
+
+.about-techSentence, .about-bgText {
+  font-size: 25px;
+  color: red;
+}
+
+.about-techList {
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;;
+}
+/*End of About Section styles*/
+
+/*Start of media query for About and Projects Sections*/
+@media (min-width:  320px) {
+    .about {
+      background: url(vector/building1.svg) no-repeat left bottom / 60%;
+    }
+
+    .projects {
+      background: url(vector/building4.svg) no-repeat right top, linear-gradient(180deg, rgba(255,193,7,1) 0%, rgba(255,220,114,1) 100%);
+    }
+  }
+
+@media (min-width:  768px) {
+    .about {
+      background: url(vector/building2.svg) no-repeat right / 70%;
+    }
+
+    .projects {
+      background: url(vector/building5.svg) no-repeat left bottom, url(vector/building5a.svg) no-repeat right, url(vector/building5b.svg) no-repeat right top, linear-gradient(180deg, rgba(255,193,7,1) 0%, rgba(255,220,114,1) 100%);
+    }
+  }
+
+@media (min-width:  1200px) {
+    .about {
+      background: url(vector/building3.svg) no-repeat right top / 60%, url(vector/building3a.svg) no-repeat right;
+    }
+
+    .projects {
+      background: url(vector/building6.svg) no-repeat right top, url(vector/building6a.svg) no-repeat left bottom, linear-gradient(180deg, rgba(255,193,7,1) 0%, rgba(255,220,114,1) 100%);
+    }
+  }
+/*End of media query for About and Projects Sections*/
+
+
+/*Start of Projects Section styles*/
+.projects-title {
+  position: relative;
+  -webkit-text-stroke: 2px black;
+  letter-spacing: 3px;
+  font-size: 45px;
+  color: transparent;
+}
+
+.projects-title:before, .projects-title:after {
+  content: "Projects...";
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.5s;
+} 
+
+.projects:hover .projects-title:before {
+  color: black;
+  -webkit-text-stroke: 1px black;
+  transform: translate(4px, -4px);
+}   
+
+.projects:hover .projects-title:after {
+  color: #05e7f7;
+  -webkit-text-stroke: 1px black;
+  transform: translate(8px, -8px);
+}  
+/*End of Projects Section styles*/
+
+/*Start of Contact Section styles*/
+.card-title {
+  font-size: 18px;
+  color: #ffc107;
+  letter-spacing: 2px;
+}
+
+.card-header {
+  letter-spacing: 2px;
+}
+
+.card-text {
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-family: sans-serif;
+}
+
+.contact-title {
+  position: relative;
+  color: transparent;
+  -webkit-text-stroke: 2px black;
+  letter-spacing: 3px;
+  font-size: 45px;
+}
+
+.contact-title:before, .contact-title:after {
+  content: "Contact...";
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.5s;
+} 
+
+.contact:hover .contact-title:before {
+  color: white;
+  z-index: 1;
+  -webkit-text-stroke: 1px black;
+  transform: translate(4px, -4px);
+}   
+
+.contact:hover .contact-title:after {
+  color: red;
+  z-index: 2;
+  -webkit-text-stroke: 1px black;
+  transform: translate(8px, -8px);
+}  
+
+.form-group {
+  color: white;
+}
+
+.form-control {
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  color: black;
+}
+
+.modal-body {
+  letter-spacing: 1px;
+  font-family: sans-serif;
+}
+
+label {
+  letter-spacing: 2px;
+}
+/*End of Contact Section styles*/
+
+/*Start of Footer styles*/
+footer {
+  background-color: black;
+}
+
+.footer-text {
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+.footer-icon {
+  height: 30px;
+  width: 30px;
+  fill: #ffc107;
+}
+/*End of Footer styles*/
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
